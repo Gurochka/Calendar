@@ -1,3 +1,22 @@
-body{
-  
+:root{
+  --border: gray;
 }
+
+body{
+  font-size: 11px;
+}
+
+@media screen and (min-width: 576px) {
+  body{ font-size: 12px; }
+}
+
+@media screen and  (min-width: 768px) {
+  body{ font-size: 14px; }
+}
+
+@media screen and (min-width: 992px) {
+  body{ font-size: 16px; }
+}
+
+@media screen and (min-width: 1200px) {
+}  
