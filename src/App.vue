@@ -1,17 +1,17 @@
 <template>
   <div>
-    <appHeader />
+    <AppHeader />
     <mainContent />
   </div>
 </template>
 
 <script>
-import appHeader from '@/components/appHeader.vue'
+import AppHeader from '@/components/AppHeader.vue'
 import mainContent from '@/components/mainContent.vue'
 
 export default {
   components: {
-    appHeader,
+    AppHeader,
     mainContent
   }
 }
